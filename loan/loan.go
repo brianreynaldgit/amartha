@@ -1,3 +1,9 @@
+// loan.go
+// Defines the Loan struct and core billing engine logic.
+// Provides thread-safe methods for making weekly payments,
+// calculating outstanding balance, and detecting delinquency
+// based on two or more consecutive missed payments.
+
 package loan
 
 import (

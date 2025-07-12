@@ -1,3 +1,7 @@
+// events.go
+// Simulates an asynchronous message queue (e.g., Kafka or RabbitMQ).
+// Logs emitted events in a background goroutine with thread-safe access.
+
 package loan
 
 import (

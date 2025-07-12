@@ -1,3 +1,7 @@
+// repo.go
+// Simulates a simple in-memory loan repository (like a database).
+// Supports loan creation and retrieval by loan ID with concurrency safety.
+
 package loan
 
 import (

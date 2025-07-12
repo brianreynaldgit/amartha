@@ -1,3 +1,8 @@
+// main.go
+// Entry point for the simulation.
+// Creates a loan, simulates multiple concurrent payment attempts (valid, invalid, duplicate),
+// and prints the final outstanding balance and delinquency status.
+
 package main
 
 import (
